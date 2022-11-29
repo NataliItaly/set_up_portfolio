@@ -2,6 +2,7 @@
   --background-color: #f9f7fe;
   --heading-font-family: "Anek Devanagari", sans-serif;
   --default-font-family: "Lato", sans-serif;
+  --contrast-color: blueviolet;
 }
 
 * {
@@ -24,8 +25,7 @@ a {
 
 .hero {
   background-color: var(--background-color);
-  text-align: center;
-  padding: 160px 0;
+  padding: 160px 10px;
 }
 
 h1,
@@ -44,9 +44,36 @@ h1 {
   font-size: 32px;
   font-family: var(--heading-font-family);
 }
-.hero h2 {
+.projects h2 {
+  font-size: 48px;
 }
 
 .btn {
   margin-top: 30px;
+  background-color: var(--contrast-color);
+  color: aliceblue;
+}
+
+.projects {
+  padding: 20px;
+}
+
+.project-wrapper:nth-of-type(odd) {
+  flex-direction: row-reverse;
+}
+
+.projects p {
+  line-height: 30px;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 40px;
+  }
 }
