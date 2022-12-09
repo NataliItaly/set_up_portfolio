@@ -77,10 +77,15 @@ h1 {
 
 .btn {
   background-color: var(--contrast-color);
-  border: 1px solid var(--contrast-color);
   color: aliceblue;
   height: 56px;
+  border: 1px solid var(--contrast-color);
+  border-color: var(--contrast-color);
   padding: 15px 30px;
+}
+
+#btn {
+  border: 1px solid var(--contrast-color);
 }
 
 .hero-btn {
