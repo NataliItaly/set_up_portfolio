@@ -23,6 +23,19 @@ a {
   color: inherit;
 }
 
+.navbar-brand {
+  width: 150px;
+}
+
+.navbar-nav .nav-link.active {
+  color: blueviolet;
+  font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
 .hero {
   background-color: var(--background-color);
   padding: 160px 10px;
