@@ -23,6 +23,10 @@ a {
   color: inherit;
 }
 
+a:hover {
+  color: var(--contrast-color);
+}
+
 .navbar-brand {
   width: 150px;
 }
@@ -42,7 +46,7 @@ a {
 
 .hero {
   background-color: var(--background-color);
-  padding: 160px 10px;
+  padding: 60px 10px;
 }
 
 h1,
@@ -162,6 +166,9 @@ footer .social-links {
   .title {
     font-size: 40px;
     line-height: 50px;
+  }
+  .projects h2 {
+    font-size: 38px;
   }
 }
 
